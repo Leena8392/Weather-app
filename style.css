@@ -1,0 +1,118 @@
+.nav-pills{
+  
+  font-size:20px;
+  background-size: cover;
+}
+@media only screen and(max-width: 300px)
+body{
+  background-color:black;
+
+}
+h1{
+  padding:0px;
+  margin-top:0px;
+  color:pink;
+  padding-top:100px;
+}
+
+
+.btn-default{
+  font-size:20px;
+}
+.btnlist{
+  padding-bottom:10%;
+}
+.pageone
+{
+  background:url("https://images.unsplash.com/photo-1420768255295-e871cbf6eb81?dpr=2&auto=format&fit=crop&w=1080&h=720&q=80&cs=tinysrgb&crop=");
+  background-size:cover;
+  height:400px;
+  padding-top: 15px;
+  
+  
+}
+.pageTwo{
+  background:url("https://images.unsplash.com/photo-1420768255295-e871cbf6eb81?dpr=2&auto=format&fit=crop&w=1080&h=720&q=80&cs=tinysrgb&crop=");
+  background-size:cover;
+  height:600px;
+
+ }
+h2{
+  font-size:2.7em;
+  color:pink;
+  margin-left:1.7em;
+ 
+}
+p{
+  color:black;
+  margin-left:1.7em;
+  font-size:20px;
+  text-align: justify;
+  padding-top: 20px;
+}
+.myimage{
+  height:400px;
+  padding-right:3.7em;
+  padding-top: 20px;
+  
+}
+.PageThree{
+  background:url(https://images.unsplash.com/photo-1455295299322-3aba0ba23ea3?dpr=2&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=);
+  background-size:cover;
+  height:600px;
+ 
+}
+.portfolio{
+  color: black;
+  font-size: 2.7em;
+
+}
+
+img{
+    
+    padding-top: 2.7em;
+}
+
+.PageFour{
+  background:url("https://images.unsplash.com/photo-1465576482687-69f0e0d47126?dpr=2&amp;auto=format&amp;fit=crop&amp;w=767&amp;h=508&amp;q=80&amp;cs=tinysrgb&amp;crop=");
+  background-size:cover;
+  height:700px;
+}
+<!--form{
+  font-size: 1.6em;
+  padding-top: 15px
+}-->
+
+.contact{
+  padding-bottom: 30px;
+}
+input{
+  width:300px;
+}
+label{
+  text-align: justify;
+  font-size: 20px;
+}
+.btn{
+  width: 200px;
+}
+.form{
+  text-align: justify;
+  padding: 10px;
+}
+input[type="text"]{
+    -webkit-border-radius: 6px;
+  }
+#googleMap {
+    width: 100%; /* Span the entire width of the screen */
+    height: 400px; /* Set the height to 400 pixels */
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); /* Change the color of the map to black and white * /
+}  
+
+
+
+
+
+
+
