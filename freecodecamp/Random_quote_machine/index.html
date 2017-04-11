@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+<body>
+  <div class="container">
+    <div class = "row text-center">
+        <h1>Random Quote Machine</h1>
+    </div>
+
+    <div class="jumbotron">
+      <blockquote class="cite">
+        <p id="quote"><i class="fa fa-quote-left"></i></p>
+      <p id = "author" class = "pull-right"></p></br></br></br>
+      <button id = "newquote" class="btn btn-default btn-lg pull-right get-quote" type="submit">New Quote</button>
+      <button id = "twitter" class="btn btn-default btn-lg pull-left share-quote" target = "_blank" onclick="getQuote()" type="submit">twitter<i class="fa fa-twitter-square"></i></button>
+
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src = "script.js"></script>
+</body>
+</html>
